@@ -1,0 +1,29 @@
+════════════════════════════════════════════════════════════════════
+Submission email — April 30, 2026 intermediate report
+════════════════════════════════════════════════════════════════════
+
+To:       bobo.zhang@[institution].edu, jian.wu@[institution].edu
+Cc:       [MSc coordinator]
+From:     thomas.nguyen@qonto.com
+Subject:  MSc thesis — intermediate report (April 30 deadline)
+
+Attachments:
+  1. intermediate_report_april30_thomas_nguyen.pdf
+  2. intermediate_report_appendix.ipynb
+
+────────────────────────────────────────────────────────────────────
+
+Dear Professor Zhang and Professor Wu,
+
+Please find attached my intermediate report for the April 30 deadline,
+along with the reproducible Jupyter notebook that regenerates every
+figure and table from the master dataset.
+
+The report covers initial results on all four hypotheses, run on a
+cross-sectional pilot of 100 S&P 500 firms; the 2015–2023 panel
+extension is in progress and described in Section 8.
+
+I look forward to your feedback in the May 21 round.
+
+Best regards,
+Thomas Nguyen

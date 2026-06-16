@@ -1,0 +1,42 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.184
+Model:                            OLS   Adj. R-squared:                  0.027
+Method:                 Least Squares   F-statistic:                     3.078
+Date:                Thu, 30 Apr 2026   Prob (F-statistic):           0.000431
+Time:                        08:16:12   Log-Likelihood:                -131.22
+No. Observations:                 100   AIC:                             296.4
+Df Residuals:                      83   BIC:                             340.7
+Df Model:                          16                                         
+Covariance Type:                  HC1                                         
+==============================================================================================
+                                 coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+const                          3.9358      3.330      1.182      0.237      -2.592      10.463
+log_market_cap                -0.1078      0.131     -0.821      0.412      -0.365       0.149
+controversy                    0.0206      0.086      0.240      0.810      -0.147       0.189
+debt_equity                    0.0003      0.001      0.626      0.531      -0.001       0.001
+roa                           -0.6164      3.405     -0.181      0.856      -7.289       6.057
+profit_margin                  0.4975      1.228      0.405      0.685      -1.909       2.904
+pe_ratio                      -0.0003      0.004     -0.069      0.945      -0.009       0.008
+sec_Consumer Discretionary    -0.8913      0.710     -1.256      0.209      -2.283       0.500
+sec_Consumer Staples          -1.0868      0.615     -1.766      0.077      -2.293       0.119
+sec_Energy                    -0.8021      0.553     -1.450      0.147      -1.886       0.282
+sec_Financials                -1.3308      0.588     -2.262      0.024      -2.484      -0.178
+sec_Health Care               -1.6564      0.564     -2.939      0.003      -2.761      -0.552
+sec_Industrials               -1.7532      0.561     -3.125      0.002      -2.853      -0.654
+sec_Information Technology    -1.3293      0.557     -2.388      0.017      -2.420      -0.238
+sec_Materials                 -1.1756      0.729     -1.612      0.107      -2.605       0.253
+sec_Real Estate               -1.0627      0.653     -1.626      0.104      -2.343       0.218
+sec_Utilities                 -2.2993      0.666     -3.451      0.001      -3.605      -0.993
+==============================================================================
+Omnibus:                        0.718   Durbin-Watson:                   1.724
+Prob(Omnibus):                  0.698   Jarque-Bera (JB):                0.812
+Skew:                          -0.091   Prob(JB):                        0.666
+Kurtosis:                       2.598   Cond. No.                     5.12e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 5.12e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

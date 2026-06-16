@@ -1,0 +1,76 @@
+{
+  "n_firms": 100,
+  "n_features": 25,
+  "esg_mean": 30.823382331096855,
+  "esg_std": 8.416024069257666,
+  "h1_metrics": {
+    "Ridge": {
+      "R2": 0.49338821117536813,
+      "RMSE": 5.990245404551037,
+      "MAE": 4.814325020658826,
+      "perm_p": 0.0
+    },
+    "RandomForest": {
+      "R2": 0.309507564294738,
+      "RMSE": 6.993368797534621,
+      "MAE": 5.8129703759908145
+    },
+    "XGBoost": {
+      "R2": 0.377636784304449,
+      "RMSE": 6.639401418617583,
+      "MAE": 5.527814375903605
+    }
+  },
+  "h1_best_model": "Ridge",
+  "h1_perm_pvalue": 0.0,
+  "h2_top_drivers": {
+    "sec_Health Care": 2.161668623449724,
+    "sec_Industrials": 1.804886533593759,
+    "sec_Information Technology": 1.3716061270579052,
+    "sec_Consumer Staples": 0.9941602808873377,
+    "roa": 0.782239279317799
+  },
+  "h2_ols_r2": 0.1840900708955362,
+  "h3_portfolio_metrics": {
+    "Benchmark": {
+      "AnnReturn": 0.41414315103629473,
+      "AnnVol": 0.17161951146583118,
+      "Sharpe": 2.1800735116926684,
+      "MaxDrawdown": -0.13786691261836445,
+      "Calmar": 3.003934324566351
+    },
+    "Raw-ESG": {
+      "AnnReturn": 0.40563947714455395,
+      "AnnVol": 0.1701366302864182,
+      "Sharpe": 2.149093211315015,
+      "MaxDrawdown": -0.13718877636777566,
+      "Calmar": 2.9567978364142244
+    },
+    "Adjusted-ESG": {
+      "AnnReturn": 0.3950548912207281,
+      "AnnVol": 0.16496532785305393,
+      "Sharpe": 2.1523000974907904,
+      "MaxDrawdown": -0.13198304011167952,
+      "Calmar": 2.9932246664908324
+    }
+  },
+  "h3_jobson_korkie_z": 0.3669117980357513,
+  "h3_jobson_korkie_p": 0.7136848107486891,
+  "h4_residual_correlation": {
+    "Ridge": {
+      "Ridge": 1.0,
+      "RandomForest": 0.84,
+      "XGBoost": 0.835
+    },
+    "RandomForest": {
+      "Ridge": 0.84,
+      "RandomForest": 1.0,
+      "XGBoost": 0.954
+    },
+    "XGBoost": {
+      "Ridge": 0.835,
+      "RandomForest": 0.954,
+      "XGBoost": 1.0
+    }
+  }
+}

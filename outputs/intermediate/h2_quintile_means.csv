@@ -1,0 +1,6 @@
+inconsistency_quintile,log_market_cap,controversy,debt_equity,roa,profit_margin
+Q1 (most under-rated),24.81,1.25,82.494,0.066,0.136
+Q2,24.564,1.6,176.827,0.072,0.166
+Q3,24.71,1.45,130.201,0.065,0.15
+Q4,24.821,1.5,82.722,0.062,0.154
+Q5 (most over-rated),24.664,1.5,117.664,0.07,0.101
